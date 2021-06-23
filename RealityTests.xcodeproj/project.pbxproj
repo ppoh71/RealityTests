@@ -12,6 +12,26 @@
 		A92996B926832C94001B12D7 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A92996B826832C94001B12D7 /* Experience.rcproject */; };
 		A92996BB26832C94001B12D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92996BA26832C94001B12D7 /* Assets.xcassets */; };
 		A92996BE26832C94001B12D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92996BD26832C94001B12D7 /* Preview Assets.xcassets */; };
+		A92996C726832D06001B12D7 /* UIObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996C626832D06001B12D7 /* UIObserver.swift */; };
+		A92996EC26832D19001B12D7 /* BasicDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996C926832D18001B12D7 /* BasicDelegateProtocol.swift */; };
+		A92996ED26832D19001B12D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996CB26832D18001B12D7 /* Constants.swift */; };
+		A92996EE26832D19001B12D7 /* MediaAssetCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996CC26832D18001B12D7 /* MediaAssetCodable.swift */; };
+		A92996EF26832D19001B12D7 /* Object3dCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996CD26832D18001B12D7 /* Object3dCodable.swift */; };
+		A92996F026832D19001B12D7 /* RealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996CF26832D18001B12D7 /* RealityView.swift */; };
+		A92996F126832D19001B12D7 /* RV+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996D226832D18001B12D7 /* RV+Setup.swift */; };
+		A92996F226832D19001B12D7 /* RV+GroundAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996D426832D18001B12D7 /* RV+GroundAnchor.swift */; };
+		A92996F326832D19001B12D7 /* RV+ARSessionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996D626832D18001B12D7 /* RV+ARSessionDelegates.swift */; };
+		A92996F426832D19001B12D7 /* RV+BasicDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996D826832D18001B12D7 /* RV+BasicDelegate.swift */; };
+		A92996F526832D19001B12D7 /* RV+ImportObject3d.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996DB26832D18001B12D7 /* RV+ImportObject3d.swift */; };
+		A92996F626832D19001B12D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996DD26832D19001B12D7 /* Extensions.swift */; };
+		A92996F726832D19001B12D7 /* EntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996E026832D19001B12D7 /* EntityExtension.swift */; };
+		A92996F826832D19001B12D7 /* FocusEntityComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996E326832D19001B12D7 /* FocusEntityComponent.swift */; };
+		A92996F926832D19001B12D7 /* Object3d+Manage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996E526832D19001B12D7 /* Object3d+Manage.swift */; };
+		A92996FA26832D19001B12D7 /* Object3d+Import.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996E626832D19001B12D7 /* Object3d+Import.swift */; };
+		A92996FB26832D19001B12D7 /* Object3dComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996E726832D19001B12D7 /* Object3dComponent.swift */; };
+		A92996FC26832D19001B12D7 /* FocusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996E926832D19001B12D7 /* FocusEntity.swift */; };
+		A92996FD26832D19001B12D7 /* Object3dEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996EA26832D19001B12D7 /* Object3dEntity.swift */; };
+		A92996FF26832D57001B12D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92996FE26832D57001B12D7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +41,27 @@
 		A92996B826832C94001B12D7 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		A92996BA26832C94001B12D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A92996BD26832C94001B12D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A92996C626832D06001B12D7 /* UIObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIObserver.swift; sourceTree = "<group>"; };
+		A92996C926832D18001B12D7 /* BasicDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDelegateProtocol.swift; sourceTree = "<group>"; };
+		A92996CB26832D18001B12D7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A92996CC26832D18001B12D7 /* MediaAssetCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaAssetCodable.swift; sourceTree = "<group>"; };
+		A92996CD26832D18001B12D7 /* Object3dCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object3dCodable.swift; sourceTree = "<group>"; };
+		A92996CF26832D18001B12D7 /* RealityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealityView.swift; sourceTree = "<group>"; };
+		A92996D226832D18001B12D7 /* RV+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RV+Setup.swift"; sourceTree = "<group>"; };
+		A92996D426832D18001B12D7 /* RV+GroundAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RV+GroundAnchor.swift"; sourceTree = "<group>"; };
+		A92996D626832D18001B12D7 /* RV+ARSessionDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RV+ARSessionDelegates.swift"; sourceTree = "<group>"; };
+		A92996D826832D18001B12D7 /* RV+BasicDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RV+BasicDelegate.swift"; sourceTree = "<group>"; };
+		A92996DB26832D18001B12D7 /* RV+ImportObject3d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RV+ImportObject3d.swift"; sourceTree = "<group>"; };
+		A92996DD26832D19001B12D7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A92996E026832D19001B12D7 /* EntityExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityExtension.swift; sourceTree = "<group>"; };
+		A92996E326832D19001B12D7 /* FocusEntityComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusEntityComponent.swift; sourceTree = "<group>"; };
+		A92996E526832D19001B12D7 /* Object3d+Manage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Object3d+Manage.swift"; sourceTree = "<group>"; };
+		A92996E626832D19001B12D7 /* Object3d+Import.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Object3d+Import.swift"; sourceTree = "<group>"; };
+		A92996E726832D19001B12D7 /* Object3dComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object3dComponent.swift; sourceTree = "<group>"; };
+		A92996E926832D19001B12D7 /* FocusEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusEntity.swift; sourceTree = "<group>"; };
+		A92996EA26832D19001B12D7 /* Object3dEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object3dEntity.swift; sourceTree = "<group>"; };
+		A92996FE26832D57001B12D7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A929970026832D81001B12D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +94,13 @@
 		A92996B326832C94001B12D7 /* RealityTests */ = {
 			isa = PBXGroup;
 			children = (
+				A929970026832D81001B12D7 /* Info.plist */,
 				A92996B426832C94001B12D7 /* AppDelegate.swift */,
 				A92996B626832C94001B12D7 /* ContentView.swift */,
+				A92996C426832D06001B12D7 /* UI */,
 				A92996B826832C94001B12D7 /* Experience.rcproject */,
 				A92996BA26832C94001B12D7 /* Assets.xcassets */,
+				A92996FE26832D57001B12D7 /* LaunchScreen.storyboard */,
 				A92996BC26832C94001B12D7 /* Preview Content */,
 			);
 			path = RealityTests;
@@ -68,6 +112,185 @@
 				A92996BD26832C94001B12D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A92996C426832D06001B12D7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A92996DE26832D19001B12D7 /* ARClasses */,
+				A92996C826832D18001B12D7 /* DelegateProtocols */,
+				A92996EB26832D19001B12D7 /* Media */,
+				A92996CA26832D18001B12D7 /* Model */,
+				A92996CE26832D18001B12D7 /* RealityView */,
+				A92996DC26832D19001B12D7 /* Utilities */,
+				A92996C526832D06001B12D7 /* Model */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A92996C526832D06001B12D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A92996C626832D06001B12D7 /* UIObserver.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A92996C826832D18001B12D7 /* DelegateProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				A92996C926832D18001B12D7 /* BasicDelegateProtocol.swift */,
+			);
+			path = DelegateProtocols;
+			sourceTree = "<group>";
+		};
+		A92996CA26832D18001B12D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A92996CB26832D18001B12D7 /* Constants.swift */,
+				A92996CC26832D18001B12D7 /* MediaAssetCodable.swift */,
+				A92996CD26832D18001B12D7 /* Object3dCodable.swift */,
+			);
+			name = Model;
+			path = ../../../ArreaSwiftUI/ArreaSwiftUI/Model;
+			sourceTree = "<group>";
+		};
+		A92996CE26832D18001B12D7 /* RealityView */ = {
+			isa = PBXGroup;
+			children = (
+				A92996CF26832D18001B12D7 /* RealityView.swift */,
+				A92996D026832D18001B12D7 /* +Extension */,
+			);
+			path = RealityView;
+			sourceTree = "<group>";
+		};
+		A92996D026832D18001B12D7 /* +Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A92996D126832D18001B12D7 /* Setup */,
+				A92996D326832D18001B12D7 /* FocusAnchor */,
+				A92996D526832D18001B12D7 /* ARSessionDelegates */,
+				A92996D726832D18001B12D7 /* DelegateExtensions */,
+				A92996D926832D18001B12D7 /* Editor */,
+			);
+			path = "+Extension";
+			sourceTree = "<group>";
+		};
+		A92996D126832D18001B12D7 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				A92996D226832D18001B12D7 /* RV+Setup.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		A92996D326832D18001B12D7 /* FocusAnchor */ = {
+			isa = PBXGroup;
+			children = (
+				A92996D426832D18001B12D7 /* RV+GroundAnchor.swift */,
+			);
+			path = FocusAnchor;
+			sourceTree = "<group>";
+		};
+		A92996D526832D18001B12D7 /* ARSessionDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				A92996D626832D18001B12D7 /* RV+ARSessionDelegates.swift */,
+			);
+			path = ARSessionDelegates;
+			sourceTree = "<group>";
+		};
+		A92996D726832D18001B12D7 /* DelegateExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A92996D826832D18001B12D7 /* RV+BasicDelegate.swift */,
+			);
+			path = DelegateExtensions;
+			sourceTree = "<group>";
+		};
+		A92996D926832D18001B12D7 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				A92996DA26832D18001B12D7 /* Object3d */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		A92996DA26832D18001B12D7 /* Object3d */ = {
+			isa = PBXGroup;
+			children = (
+				A92996DB26832D18001B12D7 /* RV+ImportObject3d.swift */,
+			);
+			path = Object3d;
+			sourceTree = "<group>";
+		};
+		A92996DC26832D19001B12D7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A92996DD26832D19001B12D7 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A92996DE26832D19001B12D7 /* ARClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A92996DF26832D19001B12D7 /* EntityExtension */,
+				A92996E126832D19001B12D7 /* ECS */,
+				A92996E826832D19001B12D7 /* Entities */,
+			);
+			path = ARClasses;
+			sourceTree = "<group>";
+		};
+		A92996DF26832D19001B12D7 /* EntityExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A92996E026832D19001B12D7 /* EntityExtension.swift */,
+			);
+			path = EntityExtension;
+			sourceTree = "<group>";
+		};
+		A92996E126832D19001B12D7 /* ECS */ = {
+			isa = PBXGroup;
+			children = (
+				A92996E226832D19001B12D7 /* FocusConmponent */,
+				A92996E426832D19001B12D7 /* Object3dComponent */,
+			);
+			path = ECS;
+			sourceTree = "<group>";
+		};
+		A92996E226832D19001B12D7 /* FocusConmponent */ = {
+			isa = PBXGroup;
+			children = (
+				A92996E326832D19001B12D7 /* FocusEntityComponent.swift */,
+			);
+			path = FocusConmponent;
+			sourceTree = "<group>";
+		};
+		A92996E426832D19001B12D7 /* Object3dComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A92996E526832D19001B12D7 /* Object3d+Manage.swift */,
+				A92996E626832D19001B12D7 /* Object3d+Import.swift */,
+				A92996E726832D19001B12D7 /* Object3dComponent.swift */,
+			);
+			path = Object3dComponent;
+			sourceTree = "<group>";
+		};
+		A92996E826832D19001B12D7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A92996E926832D19001B12D7 /* FocusEntity.swift */,
+				A92996EA26832D19001B12D7 /* Object3dEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A92996EB26832D19001B12D7 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92996FF26832D57001B12D7 /* LaunchScreen.storyboard in Resources */,
 				A92996BE26832C94001B12D7 /* Preview Assets.xcassets in Resources */,
 				A92996BB26832C94001B12D7 /* Assets.xcassets in Resources */,
 			);
@@ -140,9 +364,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92996FD26832D19001B12D7 /* Object3dEntity.swift in Sources */,
+				A92996FA26832D19001B12D7 /* Object3d+Import.swift in Sources */,
+				A92996EF26832D19001B12D7 /* Object3dCodable.swift in Sources */,
 				A92996B726832C94001B12D7 /* ContentView.swift in Sources */,
+				A92996F426832D19001B12D7 /* RV+BasicDelegate.swift in Sources */,
+				A92996F826832D19001B12D7 /* FocusEntityComponent.swift in Sources */,
+				A92996C726832D06001B12D7 /* UIObserver.swift in Sources */,
+				A92996F126832D19001B12D7 /* RV+Setup.swift in Sources */,
+				A92996EC26832D19001B12D7 /* BasicDelegateProtocol.swift in Sources */,
+				A92996F226832D19001B12D7 /* RV+GroundAnchor.swift in Sources */,
+				A92996F026832D19001B12D7 /* RealityView.swift in Sources */,
 				A92996B526832C94001B12D7 /* AppDelegate.swift in Sources */,
+				A92996F926832D19001B12D7 /* Object3d+Manage.swift in Sources */,
 				A92996B926832C94001B12D7 /* Experience.rcproject in Sources */,
+				A92996F726832D19001B12D7 /* EntityExtension.swift in Sources */,
+				A92996FC26832D19001B12D7 /* FocusEntity.swift in Sources */,
+				A92996F626832D19001B12D7 /* Extensions.swift in Sources */,
+				A92996FB26832D19001B12D7 /* Object3dComponent.swift in Sources */,
+				A92996F526832D19001B12D7 /* RV+ImportObject3d.swift in Sources */,
+				A92996EE26832D19001B12D7 /* MediaAssetCodable.swift in Sources */,
+				A92996F326832D19001B12D7 /* RV+ARSessionDelegates.swift in Sources */,
+				A92996ED26832D19001B12D7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +519,13 @@
 				DEVELOPMENT_TEAM = 4RGRETYKQ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealityTests/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = RealityTests;
+				INFOPLIST_KEY_CFBundleName = RealityTests;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -306,8 +554,13 @@
 				DEVELOPMENT_TEAM = 4RGRETYKQ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealityTests/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = RealityTests;
+				INFOPLIST_KEY_CFBundleName = RealityTests;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

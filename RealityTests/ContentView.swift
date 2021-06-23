@@ -1,43 +1,108 @@
 //
 //  ContentView.swift
-//  RealityTests
+//  ArreaSwiftUI
 //
-//  Created by Peter Pohlmann on 23/06/2021.
+//  Created by Peter Pohlmann on 15/06/2021.
 //
 
 import SwiftUI
+import Combine
 import RealityKit
+import ARKit
 
 struct ContentView : View {
-    var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+  @EnvironmentObject var observer: ObserverUI
+
+  var body: some View {
+    ZStack(alignment: .bottom ){
+      ARViewContainer(observer)
+      UIDummy()
     }
+    .edgesIgnoringSafeArea(.all)
+    .statusBar(hidden: true)
+  }
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-        
-        return arView
-        
+struct UIDummy: View {
+  @EnvironmentObject var observer: ObserverUI
+
+  var body: some View {
+
+    VStack{
+
+      HStack{
+        Button(action: {
+          observer.delegateBasicEntity?.showFocus()
+        }) {
+          Text("Show")
+        }
+
+        Button(action: {
+          observer.delegateBasicEntity?.hideFocus()
+        }) {
+          Text("Hide")
+        }
+
+        Button(action: {
+          observer.delegateBasicEntity?.basicAction(type: .enableFocus)
+        }) {
+          Text("Enable")
+        }
+
+        Button(action: {
+          observer.delegateBasicEntity?.basicAction(type: .disableFocus)
+        }) {
+          Text("Disable")
+        }
+
+        Button(action: {
+          observer.delegateBasicEntity?.basicAction(type: .mockImport)
+        }) {
+          Text("obj3")
+        }
+      }
+
+      ScrollView(Axis.Set.horizontal, showsIndicators: false) {
+        HStack{
+          ForEach((1...100), id:\.self) { index in
+            Image("dummy")
+              .resizable()
+              .frame(width: 180, height: 180, alignment: .bottom)
+          }
+        }
+      }
     }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
+  }
 }
+
+
+// MARK: RealityView
+
+struct ARViewContainer: UIViewRepresentable {
+
+  private var observer: ObserverUI
+
+  public init(_ observer: ObserverUI) {
+    self.observer = observer
+  }
+
+  func makeUIView(context: Context) -> RealityView {
+    let arView = RealityView(frame: .zero, observer: observer)
+    arView.setup()
+    return arView
+  }
+
+  func updateUIView(_ view: RealityView, context: Context) {
+
+  }
+}
+
+
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
 #endif
