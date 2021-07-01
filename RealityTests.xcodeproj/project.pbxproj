@@ -32,6 +32,8 @@
 		A92996FC26832D19001B12D7 /* FocusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996E926832D19001B12D7 /* FocusEntity.swift */; };
 		A92996FD26832D19001B12D7 /* Object3dEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92996EA26832D19001B12D7 /* Object3dEntity.swift */; };
 		A92996FF26832D57001B12D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92996FE26832D57001B12D7 /* LaunchScreen.storyboard */; };
+		A9A931E72684DF060089B7CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A931E42684DF060089B7CF /* Constants.swift */; };
+		A9E95D852685F37A00EC4C37 /* TextFieldKeyboardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E95D842685F37A00EC4C37 /* TextFieldKeyboardTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,9 @@
 		A92996EA26832D19001B12D7 /* Object3dEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object3dEntity.swift; sourceTree = "<group>"; };
 		A92996FE26832D57001B12D7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A929970026832D81001B12D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A9A931E32684DF060089B7CF /* UIObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIObserver.swift; sourceTree = "<group>"; };
+		A9A931E42684DF060089B7CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A9E95D842685F37A00EC4C37 /* TextFieldKeyboardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,14 @@
 				A929970026832D81001B12D7 /* Info.plist */,
 				A92996B426832C94001B12D7 /* AppDelegate.swift */,
 				A92996B626832C94001B12D7 /* ContentView.swift */,
+				A9E95D842685F37A00EC4C37 /* TextFieldKeyboardTest.swift */,
+				A92996DE26832D19001B12D7 /* ARClasses */,
+				A92996DC26832D19001B12D7 /* Utilities */,
+				A92996C826832D18001B12D7 /* DelegateProtocols */,
+				A92996EB26832D19001B12D7 /* Media */,
+				A92996C526832D06001B12D7 /* Model */,
+				A9A931E22684DF060089B7CF /* Model */,
+				A92996CE26832D18001B12D7 /* RealityView */,
 				A92996C426832D06001B12D7 /* UI */,
 				A92996B826832C94001B12D7 /* Experience.rcproject */,
 				A92996BA26832C94001B12D7 /* Assets.xcassets */,
@@ -117,13 +130,7 @@
 		A92996C426832D06001B12D7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A92996DE26832D19001B12D7 /* ARClasses */,
-				A92996C826832D18001B12D7 /* DelegateProtocols */,
-				A92996EB26832D19001B12D7 /* Media */,
 				A92996CA26832D18001B12D7 /* Model */,
-				A92996CE26832D18001B12D7 /* RealityView */,
-				A92996DC26832D19001B12D7 /* Utilities */,
-				A92996C526832D06001B12D7 /* Model */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -293,6 +300,15 @@
 			path = Media;
 			sourceTree = "<group>";
 		};
+		A9A931E22684DF060089B7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9A931E42684DF060089B7CF /* Constants.swift */,
+				A9A931E32684DF060089B7CF /* UIObserver.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +386,7 @@
 				A92996B726832C94001B12D7 /* ContentView.swift in Sources */,
 				A92996F426832D19001B12D7 /* RV+BasicDelegate.swift in Sources */,
 				A92996F826832D19001B12D7 /* FocusEntityComponent.swift in Sources */,
+				A9A931E72684DF060089B7CF /* Constants.swift in Sources */,
 				A92996C726832D06001B12D7 /* UIObserver.swift in Sources */,
 				A92996F126832D19001B12D7 /* RV+Setup.swift in Sources */,
 				A92996EC26832D19001B12D7 /* BasicDelegateProtocol.swift in Sources */,
@@ -383,6 +400,7 @@
 				A92996F626832D19001B12D7 /* Extensions.swift in Sources */,
 				A92996FB26832D19001B12D7 /* Object3dComponent.swift in Sources */,
 				A92996F526832D19001B12D7 /* RV+ImportObject3d.swift in Sources */,
+				A9E95D852685F37A00EC4C37 /* TextFieldKeyboardTest.swift in Sources */,
 				A92996EE26832D19001B12D7 /* MediaAssetCodable.swift in Sources */,
 				A92996F326832D19001B12D7 /* RV+ARSessionDelegates.swift in Sources */,
 				A92996ED26832D19001B12D7 /* Constants.swift in Sources */,
@@ -528,6 +546,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -539,7 +558,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -563,6 +582,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -574,7 +594,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

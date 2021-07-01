@@ -15,7 +15,8 @@ struct ContentView : View {
 
   var body: some View {
     ZStack(alignment: .bottom ){
-      ARViewContainer(observer)
+      //ARViewContainer(observer)
+      //TextFieldKeyboardTest()
       UIDummy()
     }
     .edgesIgnoringSafeArea(.all)
